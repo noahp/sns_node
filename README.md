@@ -1,7 +1,11 @@
 sns_node
 =====
-Sensor node system.  
-
+Wireless sensor node system, comprised of 3(+1) components:  
+* Sensor Node (2.4GHz low power radios)
+* Network Monitor (network interface)
+* Internet Bridge (user interface)
+* (Repeater, optional, range extender)  
+![block diagram](https://raw2.github.com/noahp/sns_node/master/doc/sns_node.png)  
 
 parts
 =====
