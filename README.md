@@ -4,11 +4,9 @@ parts
 =====
 micro
 -----
-http://www.mouser.com/ProductDetail/Freescale-Semiconductor/MKL02Z8VFG4/?qs=sGAEpiMZZMttKWgNLnZcJr8OOhcQcoey  
-datasheet  
-http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf?fpsp=1&WT_TYPE=Data%20Sheets&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation  
-ref manual  
-http://cache.freescale.com/files/32bit/doc/ref_manual/KL02P32M48SF0RM.pdf?fpsp=1&WT_TYPE=Reference%20Manuals&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation
+[mouser part](http://www.mouser.com/ProductDetail/Freescale-Semiconductor/MKL02Z8VFG4/?qs=sGAEpiMZZMttKWgNLnZcJr8OOhcQcoey)  
+[datasheet](http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf?fpsp=1&WT_TYPE=Data%20Sheets&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation)  
+[ref manual](http://cache.freescale.com/files/32bit/doc/ref_manual/KL02P32M48SF0RM.pdf?fpsp=1&WT_TYPE=Reference%20Manuals&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation)
 power supply
 -----
 http://www.mouser.com/ProductDetail/Microchip-Technology/MCP1640T-I-CHY/?qs=sGAEpiMZZMsnDbBzJh6VGDDeXjwaXPWp
