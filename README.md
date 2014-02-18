@@ -1,5 +1,8 @@
 sns_node
 =====
+Sensor node system.  
+
+
 parts
 =====
 micro
