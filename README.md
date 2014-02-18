@@ -2,6 +2,8 @@ sns_node
 =====
 parts
 =====
+micro
+-----
 power supply
 -----
 http://www.mouser.com/ProductDetail/Microchip-Technology/MCP1640T-I-CHY/?qs=sGAEpiMZZMsnDbBzJh6VGDDeXjwaXPWp
