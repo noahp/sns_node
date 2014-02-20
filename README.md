@@ -25,4 +25,4 @@ usb connector
 [micro b](http://www.mouser.com/ProductDetail/FCI/10118192-0001LF/?qs=sGAEpiMZZMulM8LPOQ%252byk2%252bTbV8%2f2X5vivRX5xKgOBI%3d)
 temp/humidity sensor
 -----
-[silabs](http://www.mouser.com/ProductDetail/Silicon-Labs/Si7020-A10-GM/?qs=sGAEpiMZZMvcRsgoMFfeP68xdtgWCbZByF2TKLTitEk%3d)  
+[silabs](http://www.mouser.com/ProductDetail/Silicon-Labs/Si7020-A10-GM/?qs=sGAEpiMZZMvcRsgoMFfeP68xdtgWCbZByF2TKLTitEk%3d),[datasheet](http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7020.pdf)  
