@@ -24,7 +24,7 @@ bg=orange</panel_attributes>
       <x>288</x>
       <y>184</y>
       <w>216</w>
-      <h>104</h>
+      <h>136</h>
     </coordinates>
     <panel_attributes>_Network Monitor_
 --
@@ -42,7 +42,7 @@ bg=green</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>280</x>
-      <y>336</y>
+      <y>376</y>
       <w>232</w>
       <h>136</h>
     </coordinates>
@@ -133,37 +133,38 @@ bg=orange</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>448</x>
+      <x>504</x>
       <y>40</y>
-      <w>96</w>
-      <h>160</h>
+      <w>144</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=&lt;.&gt;</panel_attributes>
-    <additional_attributes>80;24;24;144</additional_attributes>
+    <additional_attributes>24;24;128;88</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>368</x>
-      <y>264</y>
+      <y>296</y>
       <w>40</w>
-      <h>88</h>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;-&gt;</panel_attributes>
-    <additional_attributes>24;24;24;72</additional_attributes>
+    <additional_attributes>24;24;24;80</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>48</x>
-      <y>192</y>
-      <w>144</w>
-      <h>80</h>
+      <x>576</x>
+      <y>128</y>
+      <w>176</w>
+      <h>104</h>
     </coordinates>
-    <panel_attributes>_Repeater_
+    <panel_attributes>_Repeater(/Node)_
 --
 -Wall powered
--Range extender, repeats sensor node packets
+-Range extender, forwards sensor node packets
+-Optionally also provides sensor node functions
 elementstyle=wordwrap
 bg=pink</panel_attributes>
     <additional_attributes/>
@@ -171,23 +172,12 @@ bg=pink</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>96</x>
-      <y>88</y>
-      <w>168</w>
-      <h>120</h>
+      <x>480</x>
+      <y>160</y>
+      <w>112</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;.&gt;</panel_attributes>
-    <additional_attributes>24;104;152;24</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>168</x>
-      <y>208</y>
-      <w>136</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.&gt;</panel_attributes>
-    <additional_attributes>24;24;120;24</additional_attributes>
+    <additional_attributes>96;24;24;56</additional_attributes>
   </element>
 </diagram>
