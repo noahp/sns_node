@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:kicadlib
+LIBS:sns_node-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "18 feb 2014"
+Date "20 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -305,4 +306,47 @@ F 3 "" H 3250 5450 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3250 5450 3250 5350
+$Comp
+L 2X4_HDR U?
+U 1 1 53055294
+P 6150 2350
+F 0 "U?" H 6150 2000 60  0000 C CNN
+F 1 "NRF24L01_MOD_HDR" H 6150 2750 60  0000 C CNN
+F 2 "~" H 6050 2100 60  0000 C CNN
+F 3 "~" H 6050 2100 60  0000 C CNN
+	1    6150 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 2100 0    60   Input ~ 0
+GND
+Text GLabel 5600 2250 0    60   Input ~ 0
+CE
+Text GLabel 5600 2400 0    60   Input ~ 0
+SCK
+Text GLabel 5600 2550 0    60   Input ~ 0
+MISO
+Text GLabel 6700 2100 2    60   Input ~ 0
+VCC
+Text GLabel 6700 2250 2    60   Input ~ 0
+CSN
+Text GLabel 6700 2400 2    60   Input ~ 0
+MOSI
+Text GLabel 6700 2550 2    60   Input ~ 0
+IRQ
+Wire Wire Line
+	5600 2100 5700 2100
+Wire Wire Line
+	5700 2250 5600 2250
+Wire Wire Line
+	5600 2400 5700 2400
+Wire Wire Line
+	5700 2550 5600 2550
+Wire Wire Line
+	6600 2100 6700 2100
+Wire Wire Line
+	6700 2250 6600 2250
+Wire Wire Line
+	6600 2400 6700 2400
+Wire Wire Line
+	6700 2550 6600 2550
 $EndSCHEMATC
