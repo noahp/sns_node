@@ -20,6 +20,7 @@ power
 [inductor 4.7uH](http://www.mouser.com/ProductDetail/Sumida/CDRH4D18CNP-100PC/?qs=sGAEpiMZZMsg%252by3WlYCkUxi3fTgkZ6yAbP1KOW9D5Zs%3d)  
 [battery holder AA](http://www.mouser.com/ProductDetail/Eagle-Plastic-Devices/12BH311A-GR/?qs=sGAEpiMZZMupuRtfu7GC%252bWdR22xe%2fSxxWAb7Knacbvo%3d)  
 [battery holder AAA](http://www.mouser.com/ProductDetail/Eagle-Plastic-Devices/12BH412-GR/?qs=sGAEpiMZZMupuRtfu7GC%252basqiiwPG6fox5Hf9LOGvms%3d)  
+[ldo 3.3v](http://www.mouser.com/ProductDetail/Skyworks-Solutions-Inc/AAT3220IGY-33-T1/?qs=sGAEpiMZZMsGz1a6aV8DcBc9KxeEYlaawDtM6jF3HEw%3d), [datasheet](http://www.mouser.com/ds/2/472/202250A-258357.pdf)  
 usb connector
 -----
 [micro b](http://www.mouser.com/ProductDetail/FCI/10118192-0001LF/?qs=sGAEpiMZZMulM8LPOQ%252byk2%252bTbV8%2f2X5vivRX5xKgOBI%3d)
