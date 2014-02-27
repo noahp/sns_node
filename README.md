@@ -9,11 +9,18 @@ Wireless sensor node system, comprised of 3(+1) components:
 
 parts
 =====
-micro
+node micro
 -----
-[mouser part](http://www.mouser.com/ProductDetail/Freescale-Semiconductor/MKL02Z8VFG4/?qs=sGAEpiMZZMttKWgNLnZcJr8OOhcQcoey)  
+[mouser part MKL02Z8](http://www.mouser.com/ProductDetail/Freescale-Semiconductor/MKL02Z8VFG4/?qs=sGAEpiMZZMttKWgNLnZcJr8OOhcQcoey)  
 [datasheet](http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf?fpsp=1&WT_TYPE=Data%20Sheets&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation)  
 [ref manual](http://cache.freescale.com/files/32bit/doc/ref_manual/KL02P32M48SF0RM.pdf?fpsp=1&WT_TYPE=Reference%20Manuals&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation)
+
+network monitor micro
+-----
+[mouser part MKL26Z256](http://www.mouser.com/ProductDetail/Freescale-Semiconductor/MKL26Z256VLH4/?qs=sGAEpiMZZMuoKKEcg8mMKEd509BQpO5pxz18L1jeLNc%3d)  
+[datasheet](http://cache.freescale.com/files/microcontrollers/doc/data_sheet/KL26P121M48SF4.pdf)  
+[ref manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf)
+
 power
 -----
 [low power lps](http://www.mouser.com/ProductDetail/Microchip-Technology/MCP1640T-I-CHY/?qs=sGAEpiMZZMsnDbBzJh6VGDDeXjwaXPWp)  
