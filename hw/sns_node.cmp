@@ -1,0 +1,234 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/17/2014 8:33:12 PM
+
+BeginCmp
+TimeStamp = /5302BFF0;
+Reference = C1;
+ValeurCmp = 4.7uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302C132;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5305770B;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530576F6;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5305734A;
+Reference = J1;
+ValeurCmp = USB-MICRO-B;
+IdModule  = usb_micro_b_smt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5305711F;
+Reference = J2;
+ValeurCmp = ARM_10PIN;
+IdModule  = ARM_10_PIN_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BFA45;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = jmp_small;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302C2C0;
+Reference = P1;
+ValeurCmp = BATT-;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302C2B3;
+Reference = P2;
+ValeurCmp = BATT+;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BF674;
+Reference = P3;
+ValeurCmp = +3.3v;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BF681;
+Reference = P4;
+ValeurCmp = SCL;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BF687;
+Reference = P5;
+ValeurCmp = GND;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BF68D;
+Reference = P6;
+ValeurCmp = SDA;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BF55D;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302C7F0;
+Reference = Q2;
+ValeurCmp = MOSFET_P;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5305557D;
+Reference = Q3;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /530F3C34;
+Reference = R1;
+ValeurCmp = 3M;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BF568;
+Reference = R3;
+ValeurCmp = 3M;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302C818;
+Reference = R4;
+ValeurCmp = 1M;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302C0C2;
+Reference = R5;
+ValeurCmp = 1.3M;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302C0D6;
+Reference = R6;
+ValeurCmp = 240K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530562DF;
+Reference = R7;
+ValeurCmp = 510K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53057A20;
+Reference = R8;
+ValeurCmp = 100K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53057A31;
+Reference = R9;
+ValeurCmp = 100K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53055831;
+Reference = R10;
+ValeurCmp = 3M;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53057223;
+Reference = R11;
+ValeurCmp = 3M;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53056D35;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = spst_pushbutton_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302C05C;
+Reference = U1;
+ValeurCmp = INDUCTOR;
+IdModule  = CDRH4D18C_inductor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302BFBE;
+Reference = U2;
+ValeurCmp = MCP1640_SOT23;
+IdModule  = MCP1640;
+EndCmp
+
+BeginCmp
+TimeStamp = /5305674E;
+Reference = U3;
+ValeurCmp = SI7020;
+IdModule  = si7020_dfn6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5302BE68;
+Reference = U4;
+ValeurCmp = MKL02ZXVFG4;
+IdModule  = MKL02_QFN16;
+EndCmp
+
+BeginCmp
+TimeStamp = /53057678;
+Reference = U5;
+ValeurCmp = AAT3220_SC-59-3;
+IdModule  = sc59;
+EndCmp
+
+BeginCmp
+TimeStamp = /53055294;
+Reference = U6;
+ValeurCmp = NRF24L01_MOD_HDR;
+IdModule  = nrf24_8pin;
+EndCmp
+
+EndListe
