@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "21 apr 2014"
+Date "24 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -211,34 +211,23 @@ F 3 "" H 4850 4200 60  0000 C CNN
 $EndComp
 Text GLabel 4850 4050 0    60   Input ~ 0
 VCC
-Text GLabel 2400 3900 2    60   Input ~ 0
+Text GLabel 2550 4450 2    60   Input ~ 0
 EN
 $Comp
 L R R4
 U 1 1 5302C818
-P 2150 3550
-F 0 "R4" V 2230 3550 40  0000 C CNN
-F 1 "1M" V 2157 3551 40  0000 C CNN
-F 2 "~" V 2080 3550 30  0000 C CNN
-F 3 "~" H 2150 3550 30  0000 C CNN
-	1    2150 3550
+P 2450 4100
+F 0 "R4" V 2530 4100 40  0000 C CNN
+F 1 "1M" V 2457 4101 40  0000 C CNN
+F 2 "~" V 2380 4100 30  0000 C CNN
+F 3 "~" H 2450 4100 30  0000 C CNN
+	1    2450 4100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 4200 0    60   Input ~ 0
+Text GLabel 2350 4450 0    60   Input ~ 0
 EN_CTRL
-Text GLabel 2050 3200 0    60   Input ~ 0
+Text GLabel 2350 3750 0    60   Input ~ 0
 BATT+
-$Comp
-L GND #PWR4
-U 1 1 5302C99C
-P 2150 4500
-F 0 "#PWR4" H 2150 4500 30  0001 C CNN
-F 1 "GND" H 2150 4430 30  0001 C CNN
-F 2 "" H 2150 4500 60  0000 C CNN
-F 3 "" H 2150 4500 60  0000 C CNN
-	1    2150 4500
-	1    0    0    -1  
-$EndComp
 $Comp
 L 2X4_HDR U6
 U 1 1 53055294
@@ -262,43 +251,43 @@ Text GLabel 9850 1350 2    60   Input ~ 0
 MOSI
 Text GLabel 9850 1500 2    60   Input ~ 0
 IRQ
-Text GLabel 7350 1550 2    60   Input ~ 0
+Text GLabel 6600 1750 2    60   Input ~ 0
 NRF_PWR
 $Comp
 L MOSFET_N Q3
 U 1 1 5305557D
-P 7250 1250
-F 0 "Q3" H 7250 1050 60  0000 R CNN
-F 1 "MOSFET_N" H 7250 1450 60  0000 R CNN
-F 2 "~" H 7250 1250 60  0000 C CNN
-F 3 "~" H 7250 1250 60  0000 C CNN
-	1    7250 1250
+P 6500 1300
+F 0 "Q3" H 6500 1100 60  0000 R CNN
+F 1 "MOSFET_N" H 6500 1500 60  0000 R CNN
+F 2 "~" H 6500 1300 60  0000 C CNN
+F 3 "~" H 6500 1300 60  0000 C CNN
+	1    6500 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 6950 1250 0    60   Input ~ 0
+Text GLabel 6200 1300 0    60   Input ~ 0
 NRF_PWR_CTRL
-Text GLabel 7350 950  2    60   Input ~ 0
+Text GLabel 6600 900  2    60   Input ~ 0
 VCC
 $Comp
 L R R10
 U 1 1 53055831
-P 7000 1600
-F 0 "R10" V 7080 1600 40  0000 C CNN
-F 1 "3M" V 7007 1601 40  0000 C CNN
-F 2 "~" V 6930 1600 30  0000 C CNN
-F 3 "~" H 7000 1600 30  0000 C CNN
-	1    7000 1600
+P 6250 1650
+F 0 "R10" V 6330 1650 40  0000 C CNN
+F 1 "3M" V 6257 1651 40  0000 C CNN
+F 2 "~" V 6180 1650 30  0000 C CNN
+F 3 "~" H 6250 1650 30  0000 C CNN
+	1    6250 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR11
 U 1 1 53055869
-P 7000 1950
-F 0 "#PWR11" H 7000 1950 30  0001 C CNN
-F 1 "GND" H 7000 1880 30  0001 C CNN
-F 2 "" H 7000 1950 60  0000 C CNN
-F 3 "" H 7000 1950 60  0000 C CNN
-	1    7000 1950
+P 6250 2000
+F 0 "#PWR11" H 6250 2000 30  0001 C CNN
+F 1 "GND" H 6250 1930 30  0001 C CNN
+F 2 "" H 6250 2000 60  0000 C CNN
+F 3 "" H 6250 2000 60  0000 C CNN
+	1    6250 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -688,45 +677,12 @@ F 3 "~" H 1900 5500 60  0000 C CNN
 $EndComp
 Text GLabel 7250 6100 0    60   Input ~ 0
 USER_SW
-Text Notes 1550 4750 0    60   ~ 0
-weak pulldown to\nstart LPS. I/O\nstates are preserved\nthrough sleep mode.
-$Comp
-L R R1
-U 1 1 530F3C34
-P 1400 4550
-F 0 "R1" V 1480 4550 40  0000 C CNN
-F 1 "3M" V 1407 4551 40  0000 C CNN
-F 2 "~" V 1330 4550 30  0000 C CNN
-F 3 "~" H 1400 4550 30  0000 C CNN
-	1    1400 4550
-	1    0    0    -1  
-$EndComp
+Text Notes 1400 4000 0    60   ~ 0
+weak pullup to\nstart LPS. I/O\nstates are preserved\nthrough sleep mode.
 Text Notes 1100 7300 0    60   ~ 0
 NP- optional accessory\npower control
 Text Notes 5550 7400 0    60   ~ 0
 NP- accessory\nexpansion\nheader
-$Comp
-L GND #PWR1
-U 1 1 530F3C3A
-P 1400 4900
-F 0 "#PWR1" H 1400 4900 30  0001 C CNN
-F 1 "GND" H 1400 4830 30  0001 C CNN
-F 2 "" H 1400 4900 60  0000 C CNN
-F 3 "" H 1400 4900 60  0000 C CNN
-	1    1400 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOSFET_N Q2
-U 1 1 5355278E
-P 2050 4200
-F 0 "Q2" H 2050 4000 60  0000 R CNN
-F 1 "MOSFET_N" H 2050 4400 60  0000 R CNN
-F 2 "~" H 2050 4200 60  0000 C CNN
-F 3 "~" H 2050 4200 60  0000 C CNN
-	1    2050 4200
-	1    0    0    -1  
-$EndComp
 Text GLabel 6700 4350 2    60   Input ~ 0
 USER_SW
 Wire Wire Line
@@ -773,16 +729,9 @@ Wire Wire Line
 Wire Wire Line
 	4850 4050 4950 4050
 Wire Wire Line
-	2400 3900 2150 3900
+	2350 4450 2550 4450
 Wire Wire Line
-	2150 3800 2150 4000
-Connection ~ 2150 3900
-Wire Wire Line
-	1150 4200 1850 4200
-Wire Wire Line
-	2150 3200 2150 3300
-Wire Wire Line
-	2150 4500 2150 4400
+	2450 3750 2450 3850
 Wire Wire Line
 	8750 1050 8850 1050
 Wire Wire Line
@@ -800,16 +749,16 @@ Wire Wire Line
 Wire Wire Line
 	9850 1500 9750 1500
 Wire Wire Line
-	7350 950  7350 1050
+	6600 900  6600 1100
 Wire Wire Line
-	6950 1250 7050 1250
+	6200 1300 6300 1300
 Wire Wire Line
-	7350 1550 7350 1450
+	6600 1500 6600 1750
 Wire Wire Line
-	7000 1350 7000 1250
-Connection ~ 7000 1250
+	6250 1400 6250 1300
+Connection ~ 6250 1300
 Wire Wire Line
-	7000 1950 7000 1850
+	6250 2000 6250 1900
 Wire Wire Line
 	5550 5250 5550 5150
 Wire Wire Line
@@ -933,8 +882,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 5500 1500 5500
 Wire Wire Line
-	2050 3200 2150 3200
-Connection ~ 1400 4200
+	2350 3750 2450 3750
 Wire Notes Line
 	800  5800 2600 5800
 Wire Notes Line
@@ -951,10 +899,6 @@ Wire Notes Line
 	6250 7300 6250 6250
 Wire Notes Line
 	6250 6250 5450 6250
-Wire Wire Line
-	1400 4300 1400 4200
-Wire Wire Line
-	1400 4900 1400 4800
 $Comp
 L R R?
 U 1 1 53552F49
@@ -991,7 +935,7 @@ $EndComp
 Wire Wire Line
 	9350 4550 9350 4450
 Wire Wire Line
-	9350 3950 9350 3850
+	9350 3850 9350 3950
 Wire Wire Line
 	9350 3350 9350 3250
 Connection ~ 9350 3250
@@ -1004,4 +948,30 @@ Wire Wire Line
 Connection ~ 9350 3900
 Text GLabel 9100 4100 0    60   Input ~ 0
 VFB_SNS/USB_SNS
+Wire Wire Line
+	2450 4450 2450 4350
+Connection ~ 2450 4450
+$Comp
+L R R?
+U 1 1 5356CEC2
+P 7000 1300
+F 0 "R?" V 7080 1300 40  0000 C CNN
+F 1 "0R" V 7007 1301 40  0000 C CNN
+F 2 "~" V 6930 1300 30  0000 C CNN
+F 3 "~" H 7000 1300 30  0000 C CNN
+	1    7000 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 1000
+Connection ~ 6600 1600
+Wire Wire Line
+	6600 1000 7000 1000
+Wire Wire Line
+	7000 1000 7000 1050
+Wire Wire Line
+	7000 1550 7000 1600
+Wire Wire Line
+	7000 1600 6600 1600
+Text Notes 7200 1450 0    60   ~ 0
+nopop
 $EndSCHEMATC
